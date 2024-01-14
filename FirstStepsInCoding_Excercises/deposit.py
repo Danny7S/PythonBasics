@@ -1,0 +1,5 @@
+deposit=float(input())
+deadline=int(input())
+percent=float(input())
+sum=deposit+(deadline*percent/100*deposit/12)
+print(str(sum))
